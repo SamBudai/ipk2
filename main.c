@@ -372,7 +372,7 @@ int main(int argc, char *argv[]) {
 
     // From:
     // Ubuntu Manpage: pcap-filter
-    // https://manpages.ubuntu.com/manpages/focal/man7/pcap-filter.7.html
+    // https://linux.die.net/man/3/pcap_compile
     create_filter_expression(filter_expression, port, tcp_flag, udp_flag, arp_flag, icmp_flag);
 
     // From:
